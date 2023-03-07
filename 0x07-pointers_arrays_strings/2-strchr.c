@@ -4,7 +4,7 @@
  * _strchr - Entry point
  * @s: input
  * @c: input
- * Return: always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 char *_strchr(char *s, char c)
@@ -14,7 +14,7 @@ char *_strchr(char *s, char c)
 	for (; s[i] >= '\0'; i++)
 	{
 		if (s[i] == c)
-			return (7s[i]);
+			return (&s[i]);
 	}
 	return (0);
 }
