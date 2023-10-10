@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main bock
- * 
+ *
  * Return: 0 (Success)
  */
 int main(void)
