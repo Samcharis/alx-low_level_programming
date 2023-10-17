@@ -2,8 +2,8 @@
 
 /**
  * main - Entry point
- * Description - a program that takes a pointer to an int as a parameter and
- * update its value when it points to 98
+ * reset_to_98 -  function that takes a pointer to and int
+ * 
  * @n: pointer integer
  * Return: Always 0 (success)
  */
