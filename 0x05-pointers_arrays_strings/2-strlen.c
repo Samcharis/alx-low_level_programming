@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Description - a program that returns the length of a string
+ * _strlen - returns the length of a string
+ * @s: input string return
  *
  * Return : Always 0 (success)
  * _strlen - this will print out the length of a string
  */
 
-int _strlen(char *s);
+int _strlen(char *s)
 {
-	char school[] = "School Work";
+	int count = 0;
 
-	printf("Length of string School = %zu \n", strlen(school));
-
-	return (0);
+	while (*(s + count) != '\0')
+		count++;
+	return (count);
 }
