@@ -4,7 +4,7 @@
  * _strlen - returns the length of a string
  * @s: input string return
  *
- * Return : Always 0 (success)
+ * Return: length of string (success)
  * _strlen - this will print out the length of a string
  */
 
